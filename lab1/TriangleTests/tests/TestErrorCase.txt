@@ -1,0 +1,12 @@
+﻿
+error message
+0 UnknownError
+1 1 UnknownError
+1 1 1 error msg
+1 1 1
+-1 1 1 Triangle
+2 2 45 Isosceles
+3 3 11 Equilateral
+3 3 3 Triangle
+2 4 5 Equilateral
+2 4 5 Isosceles
