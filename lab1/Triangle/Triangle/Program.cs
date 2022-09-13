@@ -26,7 +26,7 @@ try
 }
 catch (Exception)
 {
-    Console.WriteLine("unknown error");
+    Console.WriteLine("UnknownError");
     return;
 }
 
