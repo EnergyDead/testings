@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-string _triangleAppName = "Triangle.exe";
+string _triangleAppName = "C:\\Users\\user\\ruslan\\learning\\testings\\lab1\\Triangle\\Triangle\\bin\\Debug\\net6.0\\Triangle.exe";
 string _outputFileName = "result.txt";
 
 Console.WriteLine("Type path to the file:");
@@ -18,14 +18,15 @@ while ((inputArgs = sr.ReadLine()) != null)
 {
     try
     {
+        inputArgs = inputArgs.Replace('\t', ' ');
         var testArgs = inputArgs.Split(' ');
         if (testArgs.Length != 4) throw new ArgumentException();
 
         TestCase testCase = new()
         {
-            a = double.Parse(testArgs[0]),
-            b = double.Parse(testArgs[1]),
-            c = double.Parse(testArgs[2]),
+            a = testArgs[0],
+            b = testArgs[1],
+            c = testArgs[2],
             result = testArgs[3]
         };
 
@@ -53,8 +54,8 @@ while ((inputArgs = sr.ReadLine()) != null)
 
 struct TestCase
 {
-    public double a;
-    public double b;
-    public double c;
+    public string a;
+    public string b;
+    public string c;
     public string result;
 }
