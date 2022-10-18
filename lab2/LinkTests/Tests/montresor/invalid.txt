@@ -1,0 +1,7 @@
+url: tg://resolve?domain=mon_tresor12 code: 404(NotFound)
+url: whatsapp://send?phone=79027397407&text= code: 404(NotFound)
+url: https://instagram.com/montresorrestobar/ code: 404(NotFound)
+url: https://montresor.ru/a/cookiepolicy/0/ code: 404(NotFound)
+url: mailto:mon_tresor@bk.ru code: 404(NotFound)
+url: https://taplink.cc/montresorrestobar code: 503(ServiceUnavailable)
+Count: 6. Date: 15:10 18.10.22

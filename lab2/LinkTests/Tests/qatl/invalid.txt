@@ -1,0 +1,13 @@
+url: http://links.qatl.ru/links/502gateaway502.php code: 502(BadGateway)
+url: http://links.qatl.ru/links/access401unauthorized.php code: 401(Unauthorized)
+url: http://links.qatl.ru/links/deny403forbidden.php code: 403(Forbidden)
+url: http://links.qatl.ru/links/locked.php code: 423(Locked)
+url: http://links.qatl.ru/links/un503availible.php code: 503(ServiceUnavailable)
+url: http://links.qatl.ru/links/return500bad.php code: 500(InternalServerError)
+url: http://links.qatl.ru/links/teapot418.php code: 500(InternalServerError)
+url: http://links.qatl.ru/links/movedper.php code: 301(Moved)
+url: http://links.qatl.ru/links/found302.php code: 302(Redirect)
+url: tel://1234567920 code: 404(NotFound)
+url: mailto:info@yoursite.com code: 404(NotFound)
+url: http://links.qatl.ru/links/404not404found404.php code: 404(NotFound)
+Count: 12. Date: 00:10 18.10.22
