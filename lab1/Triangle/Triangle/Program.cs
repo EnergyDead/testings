@@ -9,7 +9,11 @@ try
     var b = sidesOfTriangle[1];
     var c = sidesOfTriangle[2];
 
-    if (!IsValidTriangle(a, b, c)) throw new ArgumentException();
+    if (!IsValidTriangle(a, b, c))
+    {
+        Console.WriteLine(TriangleType.NotTriangle);
+        return;
+    }
     triangleType = TriangleType.Triangle;
 
     if (IsEquilateralTriangle(a, b, c))

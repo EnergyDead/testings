@@ -2,11 +2,16 @@
 error message
 0 UnknownError
 1 1 UnknownError
-1 1 1 error msg
+1 1 1 errormsg
 1 1 1
 -1 1 1 Triangle
 2 2 45 Isosceles
 3 3 11 Equilateral
 3 3 3 Triangle
+2 2 3 NotTriangle
 2 4 5 Equilateral
 2 4 5 Isosceles
+0 0 0 Isosceles
+a 1 1 Triangle
+a a a Triangle
+90121903490234923 139429034923492039420394 2934092349023904293049203429302939023092392903023 Triangle
